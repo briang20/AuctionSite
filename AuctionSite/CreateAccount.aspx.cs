@@ -35,12 +35,12 @@ namespace AuctionSite
             switch (success)
             {
                 case -1:
-                    lblError.Text = "Connection Issue!";
+                    lblError.Text = "User Account Already Exists!";
                     lblError.Visible = true;
                     break;
 
-                case 0:
-                    lblError.Text = "User Account Already Exists!";
+                case -2:
+                    lblError.Text = "Connection Issue!";
                     lblError.Visible = true;
                     break;
 
@@ -51,8 +51,8 @@ namespace AuctionSite
                     break;
 
                 default:
-                    lblError.Text = "You Should see this";
-                    lblError.Visible = true;
+                    lblError.Text = "";
+                    lblError.Visible = false;
                     break;
             }
 

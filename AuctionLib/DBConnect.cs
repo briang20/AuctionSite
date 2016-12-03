@@ -107,7 +107,7 @@ namespace AuctionLib
             }
             catch (Exception ex)
             {
-                return -1;
+                return -2;
             }
         }
 
