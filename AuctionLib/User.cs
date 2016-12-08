@@ -22,9 +22,12 @@ namespace AuctionLib
         public string state { get; set; }
         public string zip { get; set; }
         public string password { get; set; }
-                                           //--------------------------
 
         //Manually Created Pocos Access
+
+
+
+
 
 
 

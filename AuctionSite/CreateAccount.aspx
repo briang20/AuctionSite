@@ -25,7 +25,6 @@
         <asp:TextBox ID="txtLastName" runat="server" style="z-index: 1; left: 578px; top: 267px; position: absolute" TabIndex="3"></asp:TextBox>
         <asp:Label ID="lblState" runat="server" style="z-index: 1; left: 513px; top: 370px; position: absolute" Text="State:"></asp:Label>
         <asp:DropDownList ID="ddlStates" runat="server" style="z-index: 1; left: 576px; top: 367px; position: absolute" TabIndex="7">
-            <asp:ListItem Selected="True">PA</asp:ListItem>
         </asp:DropDownList>
         <asp:Label ID="lblAdd2" runat="server" style="z-index: 1; left: 192px; top: 376px; position: absolute" Text="Address 2:"></asp:Label>
         <asp:TextBox ID="txtAdd2" runat="server" style="z-index: 1; left: 285px; top: 372px; position: absolute" TabIndex="6"></asp:TextBox>
